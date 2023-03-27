@@ -70,8 +70,8 @@ export default async (req, res) => {
         line_items: transformedItems,
         mode: 'payment',
 
-        success_url: `${process.env.HOST}/success`,
-        cancel_url: `${process.env.HOST}/checkout`,
+        success_url: `https://cap-shop-dad-swag.vercel.app/success`,
+        cancel_url: `https://cap-shop-dad-swag.vercel.app/checkout`,
         metadata: {
             email,
         }
