@@ -9,7 +9,7 @@ const Home = ({ products }) => {
   return (
     <>
       <Head>
-        <title>Ecommerce with NextJS</title>
+        <title>dadCaps</title>
         <meta name='viewport' content='initial-scale=1.0, width=device-width' />
         <meta
           property='og:title'
