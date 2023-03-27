@@ -1,4 +1,3 @@
-import dbConnect from '../../utils/dbConnect';
 import Order from '../../models/Order';
 
 export default async function handler(req, res) {
